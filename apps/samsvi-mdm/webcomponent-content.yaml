@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: samsvi-mdm-content
+spec:
+  microFrontend: samsvi-mdm
+  element: samsvi-mdm-patient-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?samsvi-mdm(/.*)?$"
