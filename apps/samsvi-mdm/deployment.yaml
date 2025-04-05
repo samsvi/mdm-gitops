@@ -15,7 +15,7 @@ spec:
         pod: samsvi-mdm-label    # štítky podu
     spec:
       containers:
-      - name: ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
+      - name: mdm-container # meno kontaineru - v pod-e ich môže byť viac
         image: vandyga/mdm
         imagePullPolicy: Always
 
