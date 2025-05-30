@@ -5,7 +5,10 @@ metadata:
 spec:
   microFrontend: samsvi-mdm
   element: samsvi-mdm-patient-list
+  attributes:
+    - name: api-base
+      value: http://localhost:30081/api
   displayRules:
     - allOf:
-      - context-name: main-content
-      - path: "^(\\.?/)?samsvi-mdm(/.*)?$"
+        - context-name: main-content
+        - path: "^(\\.?/)?samsvi-mdm(/.*)?$"

@@ -2,16 +2,18 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 labels:
-- pairs:
-    app.kubernetes.io/part-of: wac-hospital
+  - pairs:
+      app.kubernetes.io/part-of: wac-hospital
 
 namespace: wac-hospital
 
 resources:
-- prepare.kustomization.yaml
-- cd.kustomization.yaml
-- install.kustomization.yaml
-- git-repository.yaml
-- mdm.image-repository.yaml
-- mdm.image-policy.yaml
-- image-update-automation.yaml
+  - prepare.kustomization.yaml
+  - cd.kustomization.yaml
+  - install.kustomization.yaml
+  - git-repository.yaml
+  - mdm.image-repository.yaml
+  - mdm.image-policy.yaml
+  - image-update-automation.yaml
+  - mdm-webapi.image-repository.yaml
+  - mdm-webapi.image-policy.yaml
