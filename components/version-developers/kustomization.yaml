@@ -6,4 +6,4 @@ images:
     newTag: main.20250531.0728 # {"$imagepolicy": "wac-hospital:mdm-webapi:tag"}
   - name: vandyga/mdm
     newName: vandyga/mdm # {"$imagepolicy":  "wac-hospital:mdm:name"}
-    newTag: main.20250530.2146 # {"$imagepolicy": "wac-hospital:mdm:tag"}
+    newTag: main.20250531.0753 # {"$imagepolicy": "wac-hospital:mdm:tag"}
