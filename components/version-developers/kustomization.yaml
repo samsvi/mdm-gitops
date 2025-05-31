@@ -2,8 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
   - name: vandyga/mdm-webapi
-    newName: vandyga/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+    newName: vandyga/mdm-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
     newTag: main.20250415.1237 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
   - name: vandyga/mdm
-    newName: vandyga/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+    newName: vandyga/mdm # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
     newTag: main.20250325.1323 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
