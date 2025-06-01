@@ -7,7 +7,7 @@ spec:
   element: samsvi-mdm-patient-list
   attributes:
     - name: api-base
-      value: http://localhost:30081/api
+      value: /mdm-api
   displayRules:
     - allOf:
         - context-name: main-content
