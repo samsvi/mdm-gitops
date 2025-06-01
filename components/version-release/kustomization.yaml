@@ -5,5 +5,5 @@ images:
     newName: vandyga/mdm
     newTag: 1.4.0 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
   - name: vandyga/mdm-webapi
-    newName: vandyga>/mdm-webapi
+    newName: vandyga/mdm-webapi
     newTag: 1.1.0
